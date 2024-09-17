@@ -3,7 +3,7 @@ import PromoIklan from "../elements/PromoIklan";
 
 export default function Header() {
   return (
-    <header className="bg-header-background fixed z-10 w-full">
+    <header className="bg-header-background fixed top-0 z-10 w-full">
       <PromoIklan />
       <Navbar />
     </header>

@@ -1,6 +1,6 @@
 export default function Navbar() {
   return (
-    <nav className="py-3 text-white flex gap-5 items-center w-full px-[680px]">
+    <nav className="py-[21.3px] text-white flex gap-5 items-center w-full px-[680px] relative">
       <a href="#">
         <img
           src="https://cdn-web-2.ruangguru.com/landing-pages/assets/25e770e0-cdb4-4540-9676-debc11d60793.png"
@@ -23,10 +23,10 @@ export default function Navbar() {
         </div>
         <a href="#">Ruangbaca</a>
       </div>
-      <div className="py-4 px-2 rounded-full bg-[#7ac9d0] ml-auto">
+      <div className="py-4 px-2 rounded-full bg-[#7ac9d0] absolute right-[680px]">
         <a
           href="#"
-          className="py-3 px-7 bg-white text-black justify-end rounded-full text-sm font-bold"
+          className="py-3 px-7 bg-white text-black rounded-full text-sm font-bold"
         >
           Beli Paket Belajar
         </a>

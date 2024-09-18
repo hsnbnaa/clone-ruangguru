@@ -2,6 +2,7 @@ import { Fragment, useEffect } from "react";
 import Header from "./components/fragments/Header";
 import feather from "feather-icons";
 import Hero from "./components/fragments/Hero";
+import Product from "./components/fragments/Product";
 
 function App() {
   useEffect(() => {
@@ -13,6 +14,7 @@ function App() {
       <Header />
       <main className="mt-[152px]">
         <Hero />
+        <Product />
       </main>
     </Fragment>
   );

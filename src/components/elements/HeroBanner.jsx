@@ -21,8 +21,8 @@ export default function HeroBanner() {
             type="text"
             id="phone"
             name="phone"
-            className="mt-3 p-5 w-full text-black rounded-full text-xl font-semibold outline-none border-none"
-            placeholder="+62"
+            className="mt-3 p-5 w-full text-black rounded-full text-xl font-semibold outline-none border-none placeholder:font-medium"
+            placeholder="Contoh: +628x xxxx xxxx"
             maxLength={16}
           />
           <button className="flex items-center gap-[5px] absolute top-[45%] right-[2.25%] bg-[#f26d0f] py-3 pr-4 pl-6 rounded-full text-sm font-semibold">

@@ -11,6 +11,8 @@ export default {
           "linear-gradient(257.67deg, #21a5b1 46.16%, #0e9bdf 95.13%)",
         "promo-background":
           "url(https://cdn-web-2.ruangguru.com/landing-pages/assets/8bedee26-cac5-40b3-92a4-7da2cc32e365.png), url(https://cdn-web-2.ruangguru.com/landing-pages/assets/8a72217f-1fb1-4893-83b0-39d87d7f1840.png), linear-gradient(90deg, #C41857 0%, #87113B 25%, #87113B 75%, #C41857 100%), linear-gradient(90deg, #010103 0%, #00282B 50%, #010103 100%)",
+        "paket-background":
+          "linear-gradient(230.74deg, #8EC8F8 0.81%, #E0EEFA 82.04%)",
       },
       backgroundPosition: {
         "promo-position": "left, right, center, center",
